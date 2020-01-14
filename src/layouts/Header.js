@@ -2,12 +2,14 @@ import React from "react";
 import SubHeader from "../components/SubHeader";
 import { AppBar, makeStyles } from "@material-ui/core";
 
-const useStyle = makeStyles({
+const useStyles = makeStyles({
   appBar: {
-    flex: 1
+    flexGrow: 1
   }
 });
+
 const Header = () => {
+  const classes = useStyles();
   return (
     <React.Fragment>
       <AppBar className={classes.appBar}>
