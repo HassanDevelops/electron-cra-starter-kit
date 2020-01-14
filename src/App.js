@@ -5,7 +5,7 @@ import Docs from "./pages/Docs";
 import Layout from "./layouts/Layout";
 const App = () => {
   return (
-    <>
+    <React.Fragment>
       <Router>
         <Layout>
           <Switch>
@@ -14,7 +14,7 @@ const App = () => {
           </Switch>
         </Layout>
       </Router>
-    </>
+    </React.Fragment>
   );
 };
 

@@ -1,7 +1,7 @@
 import React from "react";
 
 const Docs = () => {
-  return <div>Docs</div>;
+  return <React.Fragment>Docs</React.Fragment>;
 };
 
 export default Docs;
