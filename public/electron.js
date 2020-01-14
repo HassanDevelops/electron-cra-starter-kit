@@ -16,7 +16,7 @@ function createWindow() {
   });
 
   // and load the index.html of the app.
-  win.loaduRL(
+  win.loadURL(
     isDev
       ? "http://localhost:3000"
       : `file://${path.join(__dirname, "../build/index.html")}`
