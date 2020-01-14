@@ -1,10 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import SubHeader from "../components/SubHeader";
 const Header = () => {
   return (
     <>
-      <Link to="/">Home</Link>
-      <Link to="/docs">Docs</Link>
+      <SubHeader />
     </>
   );
 };
