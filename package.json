@@ -1,7 +1,13 @@
 {
   "name": "electron-react-sqlite",
   "version": "0.1.0",
+  "description": "inventory app",
+  "author": "shahzada ali hassan",
   "main": "public/electron.js",
+  "build": {
+    "appId": "display.menu"
+  },
+  "homepage": "./",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
@@ -18,7 +24,7 @@
     "react-test": "react-scripts test",
     "react-eject": "react-scripts eject",
     "electron-build": "electron-builder",
-    "build ": "npm run react-build && electron--builder",
+    "build": "npm run react-build && electron-builder",
     "start": "concurrently \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\""
   },
   "eslintConfig": {
